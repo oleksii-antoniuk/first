@@ -1,0 +1,164 @@
+/* Body */
+
+body {
+  display: block;
+  margin: 0;
+}
+
+/* Intro */
+
+.intro {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: url("./images/intro.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+/* Nav */
+
+.nav {
+  font-size: 14px;
+  text-transform: uppercase;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 0 17px;
+  top: 0;
+  z-index: 10;
+  position: sticky;
+  background: #ffffff;
+  height: 49px;
+  box-shadow: 0px 4px 3px -2px rgb(0 0 0 / 43%);
+}
+
+.nav__link {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px 15px;
+  position: relative;
+  color: rgb(10, 1, 1);
+  text-decoration: none;
+  transition: color .1s linear;
+  color: #565656;
+  padding: 15px 18px;
+}
+
+.nav__link.active {
+  color: #565656;
+  padding: 15px 18px;
+}
+
+.nav__link:hover {
+  background: #b1b1b1;
+}
+
+.nav__title.active {
+  color: #565656;
+  padding: 15px 18px;
+}
+
+.nav__title:hover {
+  background: #b1b1b1;
+  ;
+}
+
+.nav__footer {
+  color: #19bbad;
+  display: flex;
+  align-items: flex-end;
+  text-transform: uppercase;
+}
+
+/* Container */
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__detail {
+  text-align: center;
+  width: 49.99999%;
+  margin-top: 29px;
+}
+
+.about__img {
+  margin: auto;
+}
+
+.about__images {
+  width: 86%;
+  height: 561px;
+  padding-top: 33px;
+  margin: 20px;
+  opacity: 0.7;
+}
+
+.a__text {
+  text-align: justify;
+}
+
+.p__text {
+  text-align: justify;
+  color: #757575;
+  margin-top: 33px;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+}
+
+.contact__title {}
+
+.contact__text {
+  padding-top: 161px;
+  font-family: 'Yusei Magic', sans-serif;
+  text-align: justify;
+}
+
+.contact__p {
+  padding-top: 39px;
+  color: #000000;
+}
+
+.contact__h3 {
+  color: #607d8b;
+  padding-top: 13px;
+}
+
+.register__text {
+  color: #000000;
+  padding-top: 15px;
+}
+
+/* Checkbox */
+
+.contact__us {}
+
+.input__text {
+  padding-top: 26px;
+  width: 100%;
+  margin-bottom: 12px;
+  display: block;
+  padding: 19px 13px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.input__text:hover {
+  transition: all 0.5s;
+  background: #c0c6c9;
+  color: rgb(167, 167, 167);
+}
